@@ -49,11 +49,9 @@ def apply_emotion(sound: AudioSegment, emotion: str) -> AudioSegment:
         sound = sound.low_pass_filter(4000).apply_gain(brightness / 2)
 
     sound = sound.fade_in(fade[0]).fade_out(fade[1])
-
     sound = effects.normalize(sound)
 
     return sound
-
 
 def main():
     if len(sys.argv) < 3:
