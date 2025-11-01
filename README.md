@@ -130,13 +130,13 @@ Didukung emosi: `netral`, `tenang`, `semangat`, `sedih`.
 
 ```bash
 pip install -r requirements.txt
-python app.py "Teks narasi Anda di sini" output/id/output.wav [emosi]
+python solution.py "Teks narasi Anda di sini" output/id/output.wav [emosi]
 ```
 
 Contoh:
 
 ```bash
-python app.py "Selamat datang di dunia AI yang menakjubkan" output/id/semangat.wav semangat
+python solution.py "Selamat datang di dunia AI yang menakjubkan" output/id/semangat.wav semangat
 ```
 
 ## 🎛️ Opsi Emosi
